@@ -33,7 +33,8 @@ default-features = false
 features = ["nightly"]
 
 [dependencies.kvproto]
-git = "https://github.com/pingcap/kvproto.git"
+git = "https://github.com/lhy1024/kvproto.git"
+branch="grpc"
 default-features = false
 
 [dependencies.raft]
